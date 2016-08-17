@@ -1,0 +1,6 @@
+org/my/demo/entity/User.class
+org/my/demo/servlet/LoginServlet.class
+org/my/demo/util/DbUtil.class
+org/my/demo/realm/MyRealm.class
+org/my/demo/util/CryptographyUtil.class
+org/my/demo/dao/UserDao.class
