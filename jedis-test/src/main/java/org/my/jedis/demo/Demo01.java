@@ -14,11 +14,12 @@ public class Demo01 {
 	public static void main(String[] args) {
 		
 		Demo01 d = new Demo01();
+		d.setup();
 	}
 
 	public void setup() {
 		// 连接redis服务器，192.168.0.100:6379
-		jedis = new Jedis("192.168.0.100", 6379);
+		jedis = new Jedis("10.37.129.13", 6379);
 		// 权限认证
 		jedis.auth("admin");
 	}
